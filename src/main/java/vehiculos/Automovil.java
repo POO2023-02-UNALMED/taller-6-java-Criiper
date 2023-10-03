@@ -14,7 +14,7 @@ public class Automovil extends Vehiculo {
 		this.traccion = "FWD";
 		this.fabricante = fabricante;
 		this.puestos = puestos;
-		this.cantidadVehiculos ++;
+		cantidadVehiculos ++;
 		cantidadAutomoviles ++;
 		vehiculos.add(this);
 	}

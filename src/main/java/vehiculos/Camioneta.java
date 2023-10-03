@@ -14,7 +14,7 @@ public class Camioneta extends Vehiculo {
 		this.traccion = "4X4";
 		this.fabricante = fabricante;
 		this.volco = volco;
-		this.cantidadVehiculos ++;
+		cantidadVehiculos ++;
 		cantidadCamionetas ++;
 		vehiculos.add(this);
 

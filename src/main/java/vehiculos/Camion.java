@@ -14,7 +14,7 @@ public class Camion extends Vehiculo {
 		this.traccion = "4X2";
 		this.fabricante = fabricante;
 		this.ejes = ejes;
-		this.cantidadVehiculos ++;
+		cantidadVehiculos ++;
 		cantidadCamiones ++;
 		vehiculos.add(this);
 

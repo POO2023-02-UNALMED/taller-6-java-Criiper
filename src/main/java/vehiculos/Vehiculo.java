@@ -11,7 +11,7 @@ public class Vehiculo {
 	protected int peso;
 	protected String traccion;
 	protected Fabricante fabricante;
-	protected int cantidadVehiculos;
+	protected static int cantidadVehiculos;
 	protected static ArrayList<Vehiculo> vehiculos = new ArrayList<>();
 
 	public String vehiculoPorTipo() {
@@ -88,7 +88,7 @@ public class Vehiculo {
 		return cantidadVehiculos;
 	}
 	public void setCantidadVehiculos(int cantidadVehiculos) {
-		this.cantidadVehiculos = cantidadVehiculos;
+		Vehiculo.cantidadVehiculos = cantidadVehiculos;
 	}
 
 	
