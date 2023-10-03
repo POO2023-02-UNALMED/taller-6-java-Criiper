@@ -8,6 +8,11 @@ public class Pais {
 	private Pais elementoMasRepetido = null;
     private int frecuenciaMaxima = 0;
     
+    public Pais(String nombre) {
+    	this.nombre = nombre;
+    	}
+    
+    
 	public void pasaPaises() {
 		for(int i = 0; i< Fabricante.fabricantes.size(); i++) {
 			Fabricante elemento = Fabricante.fabricantes.get(i);
