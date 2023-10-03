@@ -9,6 +9,11 @@ public class Fabricante {
 	private Fabricante elementoMasRepetido = null;
     private int frecuenciaMaxima = 0;
 	
+    public Fabricante(String nombre, Pais pais) {
+    	this.nombre = nombre;
+    	this.pais = pais;
+    }
+    
 	public static void pasaFabricantes() {
 		for(int i = 0; i<Vehiculo.vehiculos.size(); i++) {
 			Vehiculo elemento = Vehiculo.vehiculos.get(i);
